@@ -7,8 +7,8 @@ if [ -n "${TAG_NAME}" ]; then
     export BRANCH_NAME=${TAG_NAME}
 fi
 
-export PROJECT_NAME="ssp-wzu-backend"
-export PROJECT="code.sbb.ch/KD_WZU/${PROJECT_NAME}"
+export PROJECT_NAME="hackday-backend"
+export PROJECT="code.sbb.ch/KD_BLOCKCHAIN/${PROJECT_NAME}"
 
 #export GOROOT="/opt/go"
 export GOPATH="${WORKSPACE}/go"
