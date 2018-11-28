@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage("Build Go Project") {
             steps {
-                withCredentials([usernamePassword(credentialsId: 'userpass_artifactory_prod', usernameVariable: 'ARTIFACTORY_USER', passwordVariable: 'ARTIFACTORY_PASS')]) {
+                withCredentials([usernamePassword(credentialsId: 'bin.sbb.ch', usernameVariable: 'ARTIFACTORY_USER', passwordVariable: 'ARTIFACTORY_PASS')]) {
                     sh './ci-build.sh'
                 }
             }
