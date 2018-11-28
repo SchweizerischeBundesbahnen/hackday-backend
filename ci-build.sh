@@ -10,7 +10,7 @@ fi
 export PROJECT_NAME="ssp-wzu-backend"
 export PROJECT="code.sbb.ch/KD_WZU/${PROJECT_NAME}"
 
-export GOROOT="/opt/go"
+#export GOROOT="/opt/go"
 export GOPATH="${WORKSPACE}/go"
 export PATH="${GOROOT}/bin:${GOPATH}/bin:${PATH}"
 export GIT_URL="$(git config --get remote.origin.url)"
